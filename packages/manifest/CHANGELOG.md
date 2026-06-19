@@ -1,5 +1,16 @@
 # manifest
 
+## 6.11.1
+
+### Patch Changes
+
+- 46c88c2: Lazy-load hidden token and cost chart series on agent overview.
+- 1591e53: Name the affected agent when provider disconnect is blocked by routing.
+- 8fb56c1: Speed up provider disconnect route checks and ignore disabled route rows.
+- e266b8e: Support large OpenAI-compatible inline image requests on `/v1/*` with route-scoped body parsing, clear body-size errors, and redacted inline image data for routing and message recordings.
+- 0501bb0: Improve the agent routing empty state contrast in dark mode.
+- ca62d7b: Clarify Xiaomi MiMo Basic API-key setup by linking directly to the API Keys console and validating the documented `sk-xxxxx` pay-as-you-go key shape separately from Token Plan `tp-` credentials.
+
 ## 6.11.0
 
 ### Minor Changes
